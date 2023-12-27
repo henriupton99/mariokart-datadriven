@@ -1,5 +1,33 @@
-# mariokart-datadriven
-Data tools for player/kart selection in Mario Kart 8 Deluxe
+# MarioKart DataDriven (*MKDD*)
 
-# Ressources 
+## Problem formulation
+
+In MarioKart 8 Deluxe (*MK8D*) game on switch, players compete in car races. To do this, each player chooses a combination of **driver**, **body**, **wheel** and **glider** $(d,b,t,g)$ which produces a final kart. Each component $d$,$b$,$t$,and $g$ has a set of respective integers features that each ranges from 0 to 10 : 
+- ***Weight features (wei)*** : Weight ($wg$)
+- ***Acceleration features (acc)*** : Acceleration ($ac$), Mini-Turbo ($mt$)
+- ***Traction features (trac)*** : On-Road traction ($on$), Off-Road Traction ($of$)
+- ***Speed features (spd)*** : Ground Speed ($gs$), Water Speed ($ws$),Anti-Gravity Speed ($ags$), Air Speed ($as$)
+- ***Handling features (han)*** : Ground Handling ($gh$), Water Handling ($wh$), Anti-Gravity Handling ($agh$), Air Handling ($ah$)
+- ***Invincibility features (inv)*** : Invincibility ($i$)
+
+We imagine that each player has his own set of personal preferences for each single category, that represent **preference weights** :
+
+$$w=(w_{wei},w_{acc},w_{trac},w_{spd},w_{han},w_{inv})$$
+
+Ideally, the selected quadruplet $(d,b,t,g)$ maximizes the overall score given the preference parameters :
+
+$$\max_{(d,b,t,g) \in \mathcal{P}}s(d,b,t,g|w)$$
+
+where $\mathcal{P}$ is the set of possible combinations (drivers are grouped in categories that restrict their possible choices of body/tile/glider). 
+
+Here the score function is represented as a simple normalized weighted sum of the features stats for the driver, body, tile, and glider : 
+
+$$ s(d,b,t,g|w) = \frac{1}{4 \times 6} \sum_{c \in (d,b,t,g)} \sum_{w_s \in w} w_s \times s_c $$ 
+
+where $s_c \in (0,...,10)$ represent the statistic value of component $c$.
+
+## Data
+
+## Ressources 
+
 [MarioWiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe_in-game_statistics) : in game statistics
