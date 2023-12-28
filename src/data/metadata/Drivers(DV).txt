@@ -1,0 +1,55 @@
+Driver,WG,AC,ON,OF,MT,SL,SW,SA,SG,TL,TW,TA,TG,IV,Image
+Mario(Mro),6,2,4,2,3,7,7,7,7,4,4,4,4,3,Mario(Mro).png
+Luigi(Lig),6,2,5,1,3,7,7,7,7,5,5,5,5,3,Luigi(Lig).png
+Princess Peach(Pch),4,3,3,3,4,6,6,6,6,5,5,5,5,1,Princess Peach(Pch).png
+Princess Daisy(Dsy),4,3,3,3,4,6,6,6,6,5,5,5,5,1,Princess Daisy(Dsy).png
+Yoshi(Ysi),4,3,3,3,4,6,6,6,6,5,5,5,5,1,Yoshi(Ysi).png
+Toad(Kno),3,4,3,4,4,4,4,4,4,7,7,7,7,3,Toad(Kno).png
+Toadette(Knc),2,5,4,2,4,3,3,3,3,7,7,7,7,3,Toadette(Knc).png
+Koopa Troopa(Nok),2,4,1,5,4,3,3,3,3,8,8,8,8,4,Koopa Troopa(Nok).png
+Bowser(Kop),10,0,6,0,0,10,10,10,10,0,0,0,0,6,Bowser(Kop).png
+Donkey Kong(Dkg),8,1,10,0,1,9,9,9,9,2,2,2,2,4,Donkey Kong(Dkg).png
+Wario(Wro),9,0,5,1,0,10,10,10,10,1,1,1,1,5,Wario(Wro).png
+Waluigi(Wlg),8,1,10,0,1,9,9,9,9,2,2,2,2,4,Waluigi(Wlg).png
+Rosalina(Rst),7,1,9,3,2,8,8,8,8,3,3,3,3,4,Rosalina(Rst).png
+Metal Mario(MroM),10,1,8,1,1,8,8,8,8,3,3,3,3,3,Metal Mario(MroM).png
+Pink Gold Peach(PchG),10,1,8,1,1,8,8,8,8,3,3,3,3,3,Pink Gold Peach(PchG).png
+Lakitu(Jgm),2,4,1,5,4,3,3,3,3,8,8,8,8,4,Lakitu(Jgm).png
+Shy Guy(Hyh),3,4,3,4,4,4,4,4,4,7,7,7,7,3,Shy Guy(Hyh).png
+Baby Mario(MroB),1,5,2,4,5,2,2,2,2,8,8,8,8,5,Baby Mario(MroB).png
+Mii(MiiS),1,5,2,4,5,2,2,2,2,8,8,8,8,5,Mii(MiiM).png
+Baby Luigi(LigB),1,5,2,4,5,2,2,2,2,8,8,8,8,5,Baby Luigi(LigB).png
+Baby Peach(PchB),0,4,3,5,5,1,1,1,1,10,10,10,10,6,Baby Peach(PchB).png
+Baby Daisy(DsyB),0,4,3,5,5,1,1,1,1,10,10,10,10,6,Baby Daisy(DsyB).png
+Baby Rosalina(RstB),0,5,4,3,5,1,1,1,1,9,9,9,9,6,Baby Rosalina(RstB).png
+Larry Koopa(Lry),3,4,3,4,4,4,4,4,4,7,7,7,7,3,Larry Koopa(Lry).png
+Lemmy Koopa(Lmy),0,5,4,3,5,1,1,1,1,9,9,9,9,6,Lemmy Koopa(Lmy).png
+Wendy O. Koopa(Wdy),2,5,4,2,4,3,3,3,3,7,7,7,7,3,Wendy O. Koopa(Wdy).png
+Ludwig von Koopa(Ldw),6,2,4,2,3,7,7,7,7,4,4,4,4,3,Ludwig von Koopa(Ldw).png
+Iggy Koopa(Igy),6,2,5,1,3,7,7,7,7,5,5,5,5,3,Iggy Koopa(Igy).png
+Roy Koopa(Roy),8,1,10,0,1,9,9,9,9,2,2,2,2,4,Roy Koopa(Roy).png
+Morton Koopa Jr.(Mtn),10,0,6,0,0,10,10,10,10,0,0,0,0,6,Morton Koopa Jr.(Mtn).png
+Mii(MiiM),6,2,4,2,3,7,7,7,7,4,4,4,4,3,Mii(MiiM).png
+Tanooki Mario(MroT),5,3,7,1,4,6,6,6,6,5,5,5,5,1,Tanooki Mario(MroT).png
+Link(Lnk),7,1,9,3,2,8,8,8,8,3,3,3,3,4,Link(Lnk).png
+Villager(Mrb),5,3,7,1,4,6,6,6,6,5,5,5,5,1,Villager(Mrb).png
+Isabelle(Shz),2,5,4,2,4,3,3,3,3,7,7,7,7,3,Isabelle(Shz).png
+Cat Mario(PchC),3,4,2,3,4,5,5,5,5,6,6,6,6,3,Cat Mario(PchC).png
+Dry Bowser(KopB),9,0,5,1,0,10,10,10,10,1,1,1,1,5,Dry Bowser(KopB).png
+Mii(MiiL),9,0,5,1,0,10,10,10,10,1,1,1,1,5,Mii(MiiM).png
+Villager(Mrg),3,4,2,3,4,5,5,5,5,6,6,6,6,3,Villager(Mrg).png
+Gold Mario(MroG),10,1,8,1,1,8,8,8,8,3,3,3,3,3,Gold Mario(MroG).png
+Dry Bones(Krn),1,5,2,4,5,2,2,2,2,8,8,8,8,5,Dry Bones(Krn).png
+Bowser Jr.(KopJ),2,4,1,5,4,3,3,3,3,8,8,8,8,4,Bowser Jr.(KopJ).png
+King Boo(Ktr),7,1,9,3,2,8,8,8,8,3,3,3,3,4,King Boo(Ktr).png
+Inkling(Spg),3,4,2,3,4,5,5,5,5,6,6,6,6,3,Inkling(Spg).png
+Inkling(Spb),5,3,7,1,4,6,6,6,6,5,5,5,5,1,Inkling(Spb).png
+Link,7,1,9,3,2,8,8,8,8,3,3,3,3,4,Link.png
+Birdo,4,3,3,3,4,6,6,6,6,5,5,5,5,1,Birdo.png
+Kamek,6,2,5,1,3,7,7,7,7,5,5,5,5,3,Kamek.png
+Petey Piranha,10,1,8,1,1,8,8,8,8,3,3,3,3,6,Petey Piranha.png
+Wiggler,8,1,10,0,1,9,9,9,9,2,2,2,2,4,Wiggler.png
+Diddy Kong,3,4,2,3,4,5,5,5,5,6,6,6,6,3,Diddy Kong.png
+Funky Kong,9,0,5,1,0,10,10,10,10,1,1,1,1,5,Funky Kong.png
+Peachette,4,3,3,3,4,6,6,6,6,5,5,5,5,1,Peachette.png
+Pauline,7,1,9,3,2,8,8,8,8,3,3,3,3,4,Pauline.png

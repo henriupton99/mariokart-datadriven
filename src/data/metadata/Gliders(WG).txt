@@ -1,0 +1,16 @@
+Glider,WG,AC,ON,OF,MT,SL,SW,SA,SG,TL,TW,TA,TG,IV,Image
+Super Glider,1,1,1,1,1,1,1,0,2,1,0,1,1,1,Super Glider.png
+Cloud Glider,0,2,1,1,2,0,1,1,1,1,0,1,2,0,Cloud Glider.png
+Wario Wing,2,1,2,0,1,1,0,1,2,1,1,0,1,1,Wario Wing.png
+Waddle Wing,1,1,1,1,1,1,1,0,2,1,0,1,1,1,Waddle Wing.png
+Peach Parasol (glider),1,2,2,0,2,0,0,1,1,1,1,0,2,0,Peach Parasol (glider).png
+Parachute (glider),0,2,1,1,2,0,1,1,1,1,0,1,2,0,Parachute (glider).png
+Parafoil,1,2,2,0,2,0,0,1,1,1,1,0,2,0,Parafoil.png
+Flower Glider,0,2,1,1,2,0,1,1,1,1,0,1,2,0,Flower Glider.png
+Bowser Kite,1,2,2,0,2,0,0,1,1,1,1,0,2,0,Bowser Kite.png
+Plane Glider,2,1,2,0,1,1,0,1,2,1,1,0,1,1,Plane Glider.png
+MKTV Parafoil,1,2,2,0,2,0,0,1,1,1,1,0,2,0,MKTV Parafoil.png
+Gold Glider,2,1,2,0,1,1,0,1,2,1,1,0,1,1,Gold Glider.png
+Hylian Kite,1,1,1,1,1,1,1,0,2,1,0,1,1,1,Hylian Kite.png
+Paper Glider,0,2,1,1,2,0,1,1,1,1,0,1,2,0,Paper Glider.png
+Paraglider (The Legend of Zelda),2,1,2,0,1,1,0,1,2,1,1,0,1,1,Paraglider (The Legend of Zelda).png
