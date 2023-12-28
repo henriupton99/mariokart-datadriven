@@ -3,16 +3,17 @@
 ## Problem formulation
 
 In MarioKart 8 Deluxe (*MK8D*) game on switch, players compete in car races. To do this, each player chooses a combination of **driver**, **body**, **wheel** and **glider** $(d,b,t,g)$ which produces a final kart. Each component $d$,$b$,$t$,and $g$ has a set of respective integers features that each ranges from 0 to 10 : 
-- ***Weight features (wei)*** : Weight ($wg$)
-- ***Acceleration features (acc)*** : Acceleration ($ac$), Mini-Turbo ($mt$)
-- ***Traction features (trac)*** : On-Road traction ($on$), Off-Road Traction ($of$)
-- ***Speed features (spd)*** : Ground Speed ($gs$), Water Speed ($ws$),Anti-Gravity Speed ($ags$), Air Speed ($as$)
-- ***Handling features (han)*** : Ground Handling ($gh$), Water Handling ($wh$), Anti-Gravity Handling ($agh$), Air Handling ($ah$)
-- ***Invincibility features (inv)*** : Invincibility ($i$)
+- ***Weight (wei)***
+- ***Acceleration (acc)***
+- ***Traction (trac)***
+- ***Speed (spd)*** 
+- ***Handling (han)***
+- ***Invincibility (inv)***
+- ***Mini-Turbo (mt)***
 
 We imagine that each player has his own set of personal preferences for each single category, that represent **preference weights** :
 
-$$w=(w_{wei},w_{acc},w_{trac},w_{spd},w_{han},w_{inv})$$
+$$w=(w_{wei},w_{acc},w_{trac},w_{spd},w_{han},w_{inv},w_{mt})$$
 
 Ideally, the selected quadruplet $(d,b,t,g)$ maximizes the overall score given the preference parameters :
 
