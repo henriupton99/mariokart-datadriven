@@ -1,5 +1,5 @@
 from typing import Union
-from metrics import WeightedSum
+from src.scoring.metrics import WeightedSum
 
 class Scorer:
     """Scoring class : initializes the combination set universe, and allows to get optimum 
@@ -26,7 +26,7 @@ class Scorer:
             possibilities = possibilities.split(",")
             self.combinations.append({'stats':stats, 'possibilities':possibilities})
             
-    def get_optimum(self, metric) -> dict[str,Union(dict[str,float],list[str])]:
+    def get_optimum(self, metric) -> dict[str,Union[dict[str,float],list[str]]]:
         """Computes the input metric scores for each combination stats of the list
         and returns the optimum combination stats and its associated components combinations
 

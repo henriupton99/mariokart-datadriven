@@ -1,7 +1,7 @@
 import os
 class CONFIG:
     SCRAPING_URL = "https://www.mariowiki.com/Mario_Kart_8_Deluxe_in-game_statistics"
-    DATA_PATH = "../data/"
+    DATA_PATH = "./src/data/"
     METADATA_PATH = os.path.join(DATA_PATH,"metadata")
     IMAGES_PATH = os.path.join(DATA_PATH,"images")
     
