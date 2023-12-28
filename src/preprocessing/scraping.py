@@ -35,10 +35,10 @@ import urllib
 from config import CONFIG
 
 # Creation of two distinct directories : metadata and images
-#for data_path in [CONFIG.METADATA_PATH,CONFIG.IMAGES_PATH]:
-#    assert not os.path.isdir(data_path),\
-#        f'Destination directory "{data_path}" already exists.'
-#    os.mkdir(data_path)
+for data_path in [CONFIG.METADATA_PATH,CONFIG.IMAGES_PATH]:
+    assert not os.path.isdir(data_path),\
+        f'Destination directory "{data_path}" already exists.'
+    os.mkdir(data_path)
 
 # Collection of the table of the MarioWiki website :
 response = requests.get(CONFIG.SCRAPING_URL)

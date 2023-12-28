@@ -1,5 +1,7 @@
 # MarioKart DataDriven (*MKDD*)
 
+![demo-image](demo_img.png)
+
 ## Problem formulation
 
 ### Maximization objective 
@@ -25,16 +27,36 @@ where $\mathcal{P}$ is the set of possible combinations (drivers are grouped in 
 
 Here the score function is represented as a simple normalized weighted sum of the features stats for the driver, body, tile, and glider : 
 
-$$ s(d,b,t,g|w) = \frac{1}{4 \times 6} \sum_{c \in (d,b,t,g)} \sum_{w_s \in w} w_s \times s_c $$ 
+$$ s(d,b,t,g|w) = \sum_{c \in (d,b,t,g)} \sum_{w_s \in w} w_s \times s_c $$ 
 
 where $s_c \in (0,...,10)$ represent the statistic value of component $c$.
 
 ### Set of possible combinations
-There is actually in the MK8D a panel of choice 
-3	4	2	3	4	5	5	5	5	6	6	6	6	3
-5	3	7	1	4	6	6	6	6	5	5	5	5	1
+There is actually in the MK8D a panel of choice of **54 drivers**$^*$, **41 bodies**, **22 tires**, **15 gliders**. If we denote by $\mathcal{C}$ the set of all possible combinations, the cardinality of the latter is :
+
+$$ Card(\mathcal{C}) =  54 \times 41 \times 22 \times 15 = 730620$$
+
+$^*$ *Even if there is 48 displayed characters in the selection menu, some drivers propose different variants : Miis have 3 versions (light, medium, large), Link has 2 versions, Villager has 2 versions and Inkling has 2 versions*
+
+Even if this number is extremely high, several combinations produce exactly the same resulting vector of statistics $(wei,acc,trac,spd,han)$. More precisely, there is $6701$ unique possible vectors possibilities ($0.9%$ of $Card(\mathcal{C}$)). 
+
+Moreover, some vectors among these possibilities are **non-Pareto efficient** : it means that for these vectors, there exits at least one other possible vector that provide better statistics at all points. As we aim for optimal combinations, we can omit these latters. We end up with a study set of $4619$ Pareto efficient vectors. 
+
 ## Data
 
-## Ressources 
+Images and In-game statistics comes from [MarioWiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe_in-game_statistics) website.
 
-[MarioWiki](https://www.mariowiki.com/Mario_Kart_8_Deluxe_in-game_statistics) : in game statistics
+[Preprocessing](./src/preprocessing/) provide tools for scraping and combinations computations. We end up with an input *[combination.txt](./src/data/combinations.txt)* file text that repertoriates all $4619$ Pareto efficient statistic vectors, with the line format :
+
+$$(wei,acc,trac,spd,han);d_1/b_1/t_1/g_1,...,d_n/b_n/t_n/g_n$$
+
+where $n$ is the number of combinations $(d,b,t,g)$ that lead to vector of statistics $(wei,acc,trac,spd,han)$.
+
+```python
+# combinations.txt (example line)
+(11, 11, 11, 13, 11);Mario(Mro)/Standard Kart/Standard (tire)/Super Glider,...
+```
+
+## API *(TBU)*
+
+
